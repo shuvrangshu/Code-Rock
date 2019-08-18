@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace CodePartice
@@ -10,9 +7,11 @@ namespace CodePartice
     {
         static void Main(string[] args)
         {
+            var _vedioProc = new VedioProc();
 
-            Task.Factory.StartNew(methodOne);
-            Task.Factory.StartNew(methodTwo);
+            IService _service = new MailService();
+            _vedioProc.vedioEncoded += _service.send;
+            _vedioProc.EncodeVedio();
 
             Console.WriteLine("Enter Name...");
             string name = Console.ReadLine();
