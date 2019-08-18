@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <title>
+       JS Tips
+    </title>
+
+</head>
+
+<body>
+    <script>
+        this.myName = "Global";
+        function foo() {
+            this.myName = "local";
+            alert(this.myName);
+            function bar() {
+                alert(this.myName);
+            }
+            var bar1 = () => {
+                alert(this.myName);
+            }
+            bar();
+            bar1();
+        }
+        var foo1 = new foo();
+    </script>
+</body>
+
+</html>

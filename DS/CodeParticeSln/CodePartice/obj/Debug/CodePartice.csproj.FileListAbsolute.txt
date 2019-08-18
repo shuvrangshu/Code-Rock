@@ -1,0 +1,6 @@
+E:\GitHub\Code-Rock\DS\CodeParticeSln\CodePartice\bin\Debug\CodePartice.exe.config
+E:\GitHub\Code-Rock\DS\CodeParticeSln\CodePartice\bin\Debug\CodePartice.exe
+E:\GitHub\Code-Rock\DS\CodeParticeSln\CodePartice\bin\Debug\CodePartice.pdb
+E:\GitHub\Code-Rock\DS\CodeParticeSln\CodePartice\obj\Debug\CodePartice.csprojResolveAssemblyReference.cache
+E:\GitHub\Code-Rock\DS\CodeParticeSln\CodePartice\obj\Debug\CodePartice.exe
+E:\GitHub\Code-Rock\DS\CodeParticeSln\CodePartice\obj\Debug\CodePartice.pdb
